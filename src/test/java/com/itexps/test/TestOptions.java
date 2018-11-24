@@ -32,7 +32,7 @@ public class TestOptions {
     }
     @Test
     public void testOptions(){
-        //driver.get(baseUrl);
+        driver.get(baseUrl);
         driver.manage().window().maximize();
         driver.manage().window().getPosition();
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
